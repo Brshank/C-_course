@@ -1,17 +1,31 @@
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int t;
+//       string s[t]={"one","two","three","four","five","six","seven","eight","nine"};
+//       cin>>t;
+//       if(t<=9)
+//       { 
+//           cout<<s[t-1]<<endl;
+//       }
+//       else
+//       cout<<"Greater Than 9";
+//     return 0;
+// }
 #include<iostream>
 using namespace std;
 
 int main(){
       int ch;
 
-       cout<<ch<<endl;
-       switch (ch==9||8||7||6||5||4||3||2||1||0)
+       cin>>ch;
+       switch (ch)
        {
         case 9:
          cout<<"nine"<<endl;
-         
+        
          break;
-       
 
        case 8:
          cout<<"eight"<<endl;
@@ -45,15 +59,10 @@ int main(){
        case 1:
          cout<<"one"<<endl;
          break;
-
-         case 0:
-         cout<<"zero"<<endl;
-         break;
-       
     
        default:
        
-        cout<<"greater than nine";
+        cout<<"Greater than 9";
       
     
        }
