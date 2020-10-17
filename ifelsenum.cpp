@@ -1,18 +1,18 @@
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// int main(){
-//     int t;
-//       string s[t]={"one","two","three","four","five","six","seven","eight","nine"};
-//       cin>>t;
-//       if(t<=9)
-//       { 
-//           cout<<s[t-1]<<endl;  //IF SOMEONE SEES THIS PLS HELP ME WITH THE COMMENTED CODE.PS
-//       }
-//       else
-//       cout<<"Greater Than 9";
-//     return 0;
-// }
+int main(){
+    int t;
+      string s[t]={"one","two","three","four","five","six","seven","eight","nine"};
+      cin>>t;
+      if(t<=9)
+      { 
+          cout<<s[t-1]<<endl;  //IF SOMEONE SEES THIS PLS HELP ME WITH THE COMMENTED CODE.PS
+      }
+      else
+      cout<<"Greater Than 9";
+    return 0;
+}
 #include<iostream>
 using namespace std;
 
